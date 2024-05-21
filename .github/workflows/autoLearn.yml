@@ -2,7 +2,7 @@ name: Learn
 
 on:
   schedule:
-    - cron: '32 3 * * 2' # 每周二11时32分开始学习
+    - cron: '31 3 * * 2' # 每周二11时31分开始学习
   # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#providing-inputs
   workflow_dispatch:
     inputs:
